@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div id="unhidable">
+            <div class="left">
+                <button id="button-1" onclick="document.getElementById('unhidable').style.display = 'none'">&times;</button>
+                <ul class="list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#2">Band</a></li>
+                    <li><a href="#3">Tour</a></li>
+                    <li><a href="#4">Contact</a></li>
+                    <li id="more" onmouseover="document.getElementById('more-hover').style.display = 'block'"
+                        onmouseout="document.getElementById('more-hover').style.display = 'none'"><a href="#">More
+                            <i class="fa fa-caret-down"></i></a></li>
+                </ul>
+            </div>
+            <div id="more-hover">
+                <p>Merchandise</p>
+                <p>Extras</p>
+                <p>Media</p>
+            </div>
+        </div>
+        <div class="right">
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="hidable-nav">
+            <button onclick="document.getElementById('unhidable').style.display = 'block'">
+                <div class="lines" style="width: 30px; margin: 5px; height: 4px; background-color: white;"></div>
+                <div class="lines" style="width: 30px; margin: 5px; height: 4px; background-color: white;"></div>
+                <div class="lines" style="width: 30px; margin: 5px; height: 4px; background-color: white;"></div>
+            </button>
+        </div>
+    </nav>
+
+    <div class="section-1">
+        <img src="images/chicago.jpg" alt="">
+        <p>Chicago</p>
+        <p>Thank you, Chicago - A night we won't forget.</p>
+    </div>
+    <div class="section-2" id="2">
+        <h2>THE BAND</h2>
+        <p id="opacity">We Love Music</p>
+        <p id="justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="card">
+            <div class="third">
+                <p>Name</p>
+                <img src="images/bandmember.jpg" alt="">
+            </div>
+            <div class="third">
+                <p>Name</p>
+                <img src="images/bandmember.jpg" alt="">
+            </div>
+            <div class="third">
+                <p>Name</p>
+                <img src="images/bandmember.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="section-3" id="3">
+        <h1>TOUR DATES</h1>
+        <h5>Remember to book your tickets!</h5>
+        <table>
+            <tr>
+                <td>September <h5>Sold Out</h5>
+                </td>
+            </tr>
+            <tr>
+                <td>October <h5>Sold Out</h5>
+                </td>
+            </tr>
+            <tr>
+                <td>November <i>3</i></td>
+            </tr>
+        </table>
+        <div class="section3-1">
+            <div class="fourth">
+                <img src="images/newyork.jpg" alt="">
+                <div>
+                    <h4>New York</h4>
+                    <h6>Sun 7 Sep 2020</h6>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>Buy Tickets</button>
+                </div>
+            </div>
+            <div class="fourth">
+                <img src="images/paris.jpg" alt="">
+                <div>
+                    <h4>Paris</h4>
+                    <h6>Mon 8 Sep 2020</h6>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>Buy Tickets</button>
+                </div>
+            </div>
+            <div class="fourth" id="margin">
+                <img src="images/sanfran.jpg" alt="">
+                <div>
+                    <h4>SanFrancisco</h4>
+                    <h6>Tue 9 Sep 2020</h6>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-4" id="4">
+        <h1>CONTACT</h1>
+        <h6>Fan? Drop a note!</h6>
+        <div class="contact">
+            <p><i class="fa fa-map-marker"></i> &nbsp;&nbsp;Chicago, US</p>
+            <p>
+                <i class="fa fa-phone"></i> &nbsp;&nbsp;Phone: +00 151515</p>
+            <p><i class="fa fa-envelope"></i> &nbsp;&nbsp;Email: mail@mail.com</p>
+        </div>
+        <div class="contact">
+            <form action="#">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="message" id="message" placeholder="Message">
+                <input type="submit" value="SEND" id="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="section-5">
+        <img src="images/map.jpg" alt="">
+    </div>
+
+    <div class="section-6">
+        <div>
+            <p>
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-snapchat"></i>
+                <i class="fa fa-pinterest-p"></i>
+                <i class="fa fa-linkedin"></i></p>
+            <h5>Powered By <a href="#">HB</a></h5>
+        </div>
+    </div>
+</body>
+
+</html>

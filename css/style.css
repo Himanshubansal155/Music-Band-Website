@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    box-shadow: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav-bar button{
+    background-color: transparent;
+}
+#button-1{
+    display: none;
+    float: right;
+    padding: 6px 10px;
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    top: 8px;
+    right: 8px;
+    font-size: medium;
+}
+
+#button-1:hover{
+    background-color: grey;
+}
+.hidable-nav{
+    display: none;
+}
+.left, #unhidable{
+    display: inline-block;
+}
+.right{
+    float: right;
+    padding: 15px 25px;
+}
+.right:hover{
+    background-color: red;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list li{
+    font-size: 16px;
+    padding: 15px 25px;
+}
+.list li a{
+    color: white;
+    text-decoration: none;
+}
+.list li:hover{
+    background-color: grey;
+}
+#more-hover{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    min-width: 160px;
+    left: 22.9em;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    z-index: 1;
+}
+#more-hover p{
+    padding: 10px;
+}
+
+.section-1{
+    position: relative;
+    top: 47px;
+    /* width: 100%;
+    height: 100%; */
+}
+.section-1 img{
+    width: 100%;
+}
+
+.section-1 p{
+    position: relative;
+    top: -5em;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: larger;
+
+}
+
+.section-2{
+    margin: auto;
+    width: 53em;
+    text-align: center;
+}
+
+.section-5 img{
+    width: 100%;
+}
+#opacity{
+    opacity: 0.5;
+    font-family: 'Alex Brush';font-size: 22px;
+    margin: 20px 0;
+}
+#justify{
+    text-align: justify;
+    font-family: 'Archivo Narrow';font-size: 17px;
+}
+.third{
+    display: inline-block;
+    width: 195px;
+    margin: 48px 37px;
+}
+.third p{
+    margin-bottom: 15px;
+}
+.third img{
+    width: inherit;
+}
+.section-3{
+    background-color: black;
+    color: white;
+}
+.section-3 h1{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 200;
+}
+.section-3>h5{
+    opacity: 0.5;
+    text-align: center;
+    font-family: cursive;font-size: 15px;
+}
+table{
+    margin: auto;
+    width: 53em;
+    border-spacing: 0;
+    margin-top: 50px;
+}
+table tr{
+    margin: 0;
+}
+table tr td{
+    background-color: white;
+    color: grey;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 0.5px solid rgb(185, 185, 185);
+}
+table tr td h5{
+    background-color: rgb(255, 75, 75);
+    color: white;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 15px;
+}
+
+table tr td i{
+    background-color: black;
+    color: white;
+    padding: 1px 8px;
+    margin-right: 16px;
+    float: right;
+    border-radius: 50%;
+}
+.section3-1{
+    margin: auto;
+    width: 53em;
+}
+.fourth{
+    display: inline-block;
+    margin: 30px 15px 30px 0;
+    width: 31.8%;
+    color: black;
+    background-color: white;
+}
+.fourth div{
+    padding: 15px;
+}
+.fourth img{
+    width: 100%;
+    border-style: none;
+}
+.fourth img:hover{
+    opacity: 0.7;
+}
+.fourth h4{
+    margin-bottom: 20px;
+}
+#margin{
+    margin: 30px 0 30px 0;
+}
+.fourth h6{
+    margin-bottom: 20px;
+    opacity: 0.5;
+    font-size: medium;
+}
+.fourth button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin: 15px 0;
+    cursor: pointer;
+    border: 0;
+    font-size: 15px;
+}
+
+.fourth button:hover{
+    background-color: grey;
+    border: 0;
+}
+
+.section-4{
+    margin: auto;
+    width: 53em;
+}
+.section-4 h1{
+    text-align: center;
+    margin: 40px 0 15px 0;
+    font-weight: 100;
+}
+.section-4 h6{
+    text-align: center;
+    font-family: cursive;
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.contact{
+    display: inline-block;
+    width: 49%;
+    margin: 50px 0;
+}
+.contact form input{
+    padding: 10px;
+    margin: 0 10px 20px 0;
+    border: 1px solid rgb(199, 197, 197);
+}
+
+#message{
+    display: block;
+    width: 91%;
+}
+#submit{
+    float: right;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 15px;
+}
+.contact p{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.section-6{
+    margin: auto;
+    width: 53em;
+}
+.section-6 div{
+    margin: 50px 0;
+
+}
+.section-6 p{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.section-6 h5{
+    text-align: center;
+    opacity: 0.5;
+}
+.section-6 a{
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width:865px){
+    .section-2, .section-3, .section-4, .section-5, .section-6, table, .section3-1{
+        width: 100%;
+    }
+    .section-2, .section-3, .section-4{
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    #name, #email, #message{
+        width: 91%;
+        box-sizing: border-box;
+    } 
+    .fourth, #margin{
+        width: 64%;
+        margin: 30px auto 0;
+        display: block;
+    }
+    .contact{
+        width: 50%;
+        margin: 40px auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .hidable-nav{
+        display: block;
+        padding: 5px;
+    }
+    #unhidable{
+        display: none;
+        background-color: white;
+        width: 50%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        
+        
+    }
+    #unhidable ul{
+        display: block;
+    }
+    #unhidable ul li a{
+        color:black;
+    }
+    
+    .section-1 p{
+        font-size: 10px;
+    }
+    .left, #button-1{
+        display: block;
+    }
+    #more{
+        display: none;
+    }
+}
