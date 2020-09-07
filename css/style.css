@@ -137,7 +137,8 @@ body{
 .section-3>h5{
     opacity: 0.5;
     text-align: center;
-    font-family: cursive;font-size: 15px;
+    font-family: 'Alex Brush';font-size: 22px;
+    font-weight: 100;
 }
 table{
     margin: auto;
@@ -229,10 +230,8 @@ table tr td i{
 }
 .section-4 h6{
     text-align: center;
-    font-family: cursive;
     opacity: 0.5;
-    font-size: 15px;
-    font-weight: 50;
+    font-family: 'Alex Brush';font-size: 22px;
 }
 
 .contact{
