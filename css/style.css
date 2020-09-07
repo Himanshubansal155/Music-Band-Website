@@ -34,6 +34,9 @@ body{
 .hidable-nav{
     display: none;
 }
+#unhidable1{
+    display: none;
+}
 .left, #unhidable{
     display: inline-block;
 }
@@ -53,7 +56,7 @@ body{
     font-size: 16px;
     padding: 15px 25px;
 }
-.list li a{
+.list a{
     color: white;
     text-decoration: none;
 }
@@ -310,20 +313,21 @@ table tr td i{
         display: block;
         padding: 5px;
     }
-    #unhidable{
+    #unhidable1{
         display: none;
         background-color: white;
         width: 50%;
         position: absolute;
         top: 10px;
         left: 10px;
-        
-        
     }
-    #unhidable ul{
+    #unhidable{
+        display: none;
+    }
+    #unhidable1 ul{
         display: block;
     }
-    #unhidable ul li a{
+    #unhidable1 ul a{
         color:black;
     }
     
